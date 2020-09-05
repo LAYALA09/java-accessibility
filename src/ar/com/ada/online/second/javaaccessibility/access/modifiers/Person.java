@@ -6,12 +6,12 @@ public class Person {
     public Integer age;
 
 
-public void showAttributeValues(){
-    System.out.println("Name: " + this.name);
-    System.out.println("Last Name: " + this.lastName);
-    System.out.println("Age = " + this.age);
+    public void showAttributeValues() {
+        System.out.println("Name: " + this.name);
+        System.out.println("Last Name: " + this.lastName);
+        System.out.println("Age = " + this.age);
 
 
-}
+    }
 
 }
