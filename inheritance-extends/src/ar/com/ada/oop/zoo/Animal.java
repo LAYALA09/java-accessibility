@@ -1,7 +1,7 @@
 package ar.com.ada.oop.zoo;
 
 public class Animal {
-    private String breed;
+   private String breed ="";
 
     public Animal() {///contructor vacio
 

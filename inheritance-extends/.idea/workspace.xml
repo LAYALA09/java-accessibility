@@ -53,18 +53,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="RunManager" selected="Application.prueba">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ar.com.ada.oop.App" />
-      <module name="inheritance-extends" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="prueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ar.com.ada.oop.zoo.prueba" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ar.com.ada.oop.zoo.App" />
       <module name="inheritance-extends" />
       <extension name="coverage">
         <pattern>
@@ -72,6 +62,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ar.com.ada.oop.App" />
+      <module name="inheritance-extends" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,44 +107,45 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1600040802718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="770" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600040802718" />
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1600054987536">
+    <state width="1860" height="332" key="GridCell.Tab.0.bottom" timestamp="1600109188344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600054987536" />
-    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1600054987536">
+    <state width="1860" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600109188344" />
+    <state width="1860" height="332" key="GridCell.Tab.0.center" timestamp="1600109188344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600054987536" />
-    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1600054987536">
+    <state width="1860" height="332" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600109188344" />
+    <state width="1860" height="332" key="GridCell.Tab.0.left" timestamp="1600109188344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600054987536" />
-    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1600054987536">
+    <state width="1860" height="332" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600109188344" />
+    <state width="1860" height="332" key="GridCell.Tab.0.right" timestamp="1600109188344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600054987536" />
-    <state width="1860" height="344" key="GridCell.Tab.1.bottom" timestamp="1600054409336">
+    <state width="1860" height="332" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600109188344" />
+    <state width="1860" height="344" key="GridCell.Tab.1.bottom" timestamp="1600108927542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600054409336" />
-    <state width="1860" height="344" key="GridCell.Tab.1.center" timestamp="1600054409336">
+    <state width="1860" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600108927542" />
+    <state width="1860" height="344" key="GridCell.Tab.1.center" timestamp="1600108927542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600054409336" />
-    <state width="1860" height="344" key="GridCell.Tab.1.left" timestamp="1600054409336">
+    <state width="1860" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600108927542" />
+    <state width="1860" height="344" key="GridCell.Tab.1.left" timestamp="1600108927542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600054409336" />
-    <state width="1860" height="344" key="GridCell.Tab.1.right" timestamp="1600054409336">
+    <state width="1860" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600108927542" />
+    <state width="1860" height="344" key="GridCell.Tab.1.right" timestamp="1600108927542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600054409336" />
+    <state width="1860" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600108927542" />
     <state x="575" y="273" key="run.anything.popup" timestamp="1600027081716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

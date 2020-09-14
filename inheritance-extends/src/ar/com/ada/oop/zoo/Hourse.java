@@ -1,5 +1,7 @@
 package ar.com.ada.oop.zoo;
 
+
+
 public class Hourse extends Animal {
     private String name;
     private Integer poewr = 0;
@@ -28,7 +30,7 @@ public class Hourse extends Animal {
         this.name = name;
         this.poewr = poewr;
 
-        //  System.out.println("El caballo " + getName() + "de raza " + getBreed() + "tiene una fuerza de" + getPoewr() + "libras. ");
+          System.out.println("El caballo " + getName() + "de raza " + getBreed() + "tiene una fuerza de" + getPoewr() + "libras. ");
     }
 
 
@@ -42,13 +44,23 @@ public class Hourse extends Animal {
         return poewr;
     }
 
-    @Override
-    public void setBreed(String breed) {
-        super.setBreed(breed);
-    }
+
+
+
 
     @Override
-    public String getBreed() {
-        return super.getBreed();
+
+    public String toString() {
+
+
+            if (getName() == null) return "sin marca";
+            return this.getBreed();
+
+       // return "Es de raza " + getBreed()+ ", el caballo" + getName() + " y tiene una fuerza de " + getPoewr() + " libras. ";
+
     }
-}
+
+    }
+
+
+
